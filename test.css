@@ -90,6 +90,10 @@ html {
   border-bottom: 1px solid var(--border-color);
 }
 
+.header-container p{
+    font-size: 2.4rem;
+}
+
 /* -------------------- NAVIGATION -------------------- */
 .nav-bar {
   display: flex;
@@ -119,22 +123,13 @@ html {
   display: flex;
   align-items: center;
   gap: 1.25rem;
+  justify-content: center; /* Add this */
+  margin: 0 auto; 
 }
 .nav-links li {
   position: relative;
   font-size: 1.2rem;
 }
-
-/* -------------------- HAMBURGER BUTTON -------------------- */
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: var(--text-color);
-  cursor: pointer;
-}
-
 
 /* -------------------- FOOTER -------------------- */
 .footer-container {
