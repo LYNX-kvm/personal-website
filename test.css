@@ -93,7 +93,7 @@ html {
 /* -------------------- NAVIGATION -------------------- */
 .nav-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 2.5rem;
   flex-wrap: wrap;
