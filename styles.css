@@ -65,7 +65,9 @@ main p {
   font-size: 1.2rem;
   line-height: 1.6;
 }
-
+li {
+  list-style: none;
+}
 /* ================================
    Layout
 ================================== */
@@ -124,8 +126,12 @@ header {
 
 .nav-links {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1.25rem;
+  list-style: none;        
+  padding: 0;             
+  margin: 0;
 }
 
 .nav-links li {
