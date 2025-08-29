@@ -2,7 +2,7 @@
 :root {
   --main-bg: black;
   --text-color: white;
-  --primary-font: 'Orbitron', sans-serif;
+  --primary-font: 'Google Sans Code', sans-serif;
   --accent: #222;
   --border-color: #333;
   --hover-bg: var(--accent);
