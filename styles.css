@@ -38,15 +38,20 @@ li {
 }
 
 .nav-bar{
+  display:flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   background: var(--sec-bg) ;
 }
 
 .nav-links ul{
   margin: 3rem 0;
+}
+
+.nav-links a{
+  text-decoration: none;
 }
 
 /* -------------------- MAIN -------------------- */
