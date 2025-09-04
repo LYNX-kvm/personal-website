@@ -1,10 +1,10 @@
-/* -------------------- VARIABLES -------------------- */
+/* -------------------- VARIABLES -------------------- */                   
 :root {
   --main-bg: #fbfffd;
   --sec-bg: #afd4ce;
   --text-color: #4c625e;
   --primary-font: "Lexend", sans-serif;
-  --focus-outline: #82ffc0;
+  --focus-outline: #425f50;
 }
 
 /* -------------------- RESET -------------------- */
@@ -40,22 +40,24 @@ li {
 .nav-bar{
   display:flex;
   flex: 1;
+  gap: 3rem; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   background: var(--sec-bg) ;
 }
 
 .nav-links a{
   text-decoration: none;
-  font-size: 4rem;
-  margin: 3rem 0;
+  font-size: 3.6rem;
 }
 
 /* -------------------- MAIN -------------------- */
 main {
   flex: 2;
   padding: 2rem;
+  display: flex;
 }
 
 /* -------------------- KEYBOARD NAVIGATION -------------------- */
@@ -80,4 +82,11 @@ a:focus, button:focus {
 .footer-links a img {
   height: 1.5rem;
   margin: 0 0.5rem;
+}
+
+h1 .my-name{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 8rem;
 }
