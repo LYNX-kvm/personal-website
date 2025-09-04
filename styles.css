@@ -1,9 +1,9 @@
 /* -------------------- VARIABLES -------------------- */
 :root {
   --main-bg: #fbfffd;
+  --sec-bg: #afd4ce;
   --text-color: #4c625e;
-  --primary-font: sans-serif;
-  --hover-bg: var(--accent);
+  --primary-font: "Lexend", sans-serif;
   --focus-outline: #82ffc0;
 }
 
@@ -42,6 +42,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  background: var(--sec-bg) ;
 }
 
 .nav-links ul{
