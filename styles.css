@@ -46,12 +46,10 @@ li {
   background: var(--sec-bg) ;
 }
 
-.nav-links ul{
-  margin: 3rem 0;
-}
-
 .nav-links a{
   text-decoration: none;
+  font-size: 4rem;
+  margin: 3rem 0;
 }
 
 /* -------------------- MAIN -------------------- */
