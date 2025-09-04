@@ -84,9 +84,17 @@ a:focus, button:focus {
   margin: 0 0.5rem;
 }
 
-h1 .my-name{
+.home-page-welcome{
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding: 3rem;
+}
+
+
+h1 .my-name{
   font-size: 8rem;
+}
+h2 .my-name{
+  font-size: 6rem;
 }
