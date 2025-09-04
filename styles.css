@@ -60,3 +60,21 @@ a:focus, button:focus {
   outline: 2px solid var(--focus-outline);
   outline-offset: 2px;
 }
+
+.footer-container {
+  color: var(--text-color);
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 0.9rem;
+  background-color: var(--sec-bg);
+}
+.footer-container p {
+  margin-bottom: 1rem;
+}
+.footer-links {
+  margin-top: 10px;
+}
+.footer-links a img {
+  height: 1.5rem;
+  margin: 0 0.5rem;
+}
